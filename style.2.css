@@ -1,0 +1,83 @@
+body { background-color: lightpink;}
+
+.container {
+  color:black;
+    margin: 25px 50px 75px 0px;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 30px;
+}
+.container1 {
+  color:darkmagenta;
+  position: absolute;
+  top: 90px;
+  right: ;
+  bottom: ;
+  left: 260px;
+  font-family: 'Arial Narrow Bold';
+  display: flex;
+  font-size: 40px;
+}
+.container2 {
+  color:darkmagenta;
+    position: absolute;
+    top: 170px;
+    right: ;
+    bottom: ;
+    left: 320px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    font-size: 25px;
+}
+.colored-text {
+  background-color:hotpink;
+  color:black;
+  padding: 5px;
+  font-size: 35px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+
+}
+.text {
+  color:blueviolet;
+  margin: 15px;
+  font-size: 30;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+.text-explanation {
+  margin: 15px;
+  font-size: 30;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.image-row img {
+  max-width: 30%;
+  height: auto;
+}
+
+.footer {
+  background-color:palevioletred;
+  color:black;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.button.hover{
+  background-color: darkcyan;
+}
